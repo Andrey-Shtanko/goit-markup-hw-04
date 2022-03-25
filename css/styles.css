@@ -111,6 +111,11 @@ ul {
   margin-right: 50px;
 }
 
+.mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contacts .item:last-child {
   margin-right: 0;
 }
@@ -126,6 +131,7 @@ ul {
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .page-nav-logo {
   font-family: Raleway, sans-serif;
