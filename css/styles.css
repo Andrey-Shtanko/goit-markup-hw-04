@@ -111,7 +111,8 @@ ul {
   margin-right: 50px;
 }
 
-.mail-icon {
+.mail-icon,
+.phone-icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -120,6 +121,9 @@ ul {
   margin-right: 0;
 }
 .contacts .link {
+  display: inline-flex;
+  align-items: center;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
