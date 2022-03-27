@@ -238,6 +238,29 @@ ul {
 .possibilities-title {
   margin-bottom: 50px;
 }
+.social {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.icon-item .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+}
+.icon-item .link:hover,
+.icon-item .link:focus {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  fill: var(--hover-text);
+}
+.icon-item .icon {
+  width: 20px;
+  height: 20px;
+}
 .team-list {
   display: flex;
 }
@@ -259,7 +282,7 @@ ul {
 }
 .card-bottom {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .possibilities-title,
 .team-title {
