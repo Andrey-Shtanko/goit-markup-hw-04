@@ -257,6 +257,9 @@ ul {
   background-color: var(--accent-color);
   fill: var(--hover-text);
 }
+.social .icon-item:not(:last-child) {
+  margin-right: 10px;
+}
 .icon-item .icon {
   width: 20px;
   height: 20px;
@@ -336,11 +339,6 @@ ul {
   margin-right: 30px;
 }
 
-/* .clients-list .icon {
-  width: 106px;
-  height: 60px;
-} */
-
 /* футер */
 footer {
   background-color: #2f303a;
@@ -367,6 +365,25 @@ footer {
 .page-address .link:focus {
   color: var(--accent-color);
 }
+
+.social-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social-list .link:hover,
+.social-list .link:focus {
+  background-color: var(--accent-color);
+}
+.footer .social-list .item:not(:last-child) {
+  margin-right: 10px;
+}
+
 footer .second-part-logo {
   color: var(--hover-text);
 }
@@ -374,6 +391,27 @@ footer .second-part-logo {
   display: block;
   margin-bottom: 20px;
 }
+
+.footer .container {
+  display: flex;
+}
+.social-block {
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.social-block-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--hover-text);
+}
+
+.footer .social-list {
+  display: inline-flex;
+}
+
 /* для портфолио */
 .portfolio-filter {
   display: flex;
