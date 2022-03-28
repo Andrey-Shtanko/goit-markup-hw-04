@@ -285,7 +285,8 @@ ul {
   padding-bottom: 16px;
 }
 .possibilities-title,
-.team-title {
+.team-title,
+.clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -303,6 +304,42 @@ ul {
   line-height: 1.18;
   text-align: center;
 }
+
+/* Клиенты */
+.clients-list {
+  display: flex;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+}
+
+.clients-list .link {
+  display: inline-flex;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.clients-list .link:hover,
+.clients-list .link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.clients-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* .clients-list .icon {
+  width: 106px;
+  height: 60px;
+} */
 
 /* футер */
 footer {
